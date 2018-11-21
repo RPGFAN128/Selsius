@@ -4,7 +4,11 @@ Selsius is an abstract save editor project capable of quickly creating powerful 
 
 ## Main Philosophy
 ● Defining an entire save editor based on two things. (1) A list of hex values and what they represent in game. (2) Defined addresses and what they represent in game.  
-● Allowing defined addresses to be any value (including illegal values).  There are some illegal limitations, however, such as (A) A 2-byte address cannot assume a value greater than 65,535. (B) A string with a defined charset cannot contain characters which are not elements of the charset. (C) Hex values cannot assume values for non-valid (or undefined) hex values. (D) Etc.  
+● Allowing defined addresses to be any value (including illegal values).  There are some illegal limitations, however, such as:  
+    ▫ A 2-byte address cannot assume a value greater than 65,535.  
+    ▫ A string with a defined charset cannot contain characters which are not elements of the charset.  
+    ▫ Hex values cannot assume values for non-valid (or undefined) hex values.  
+    ▫ Etc.  
 ● Allowing mass importing/exporting of data blocks.  This ability mimics a "New Game Plus" option and gives the user the complete freedom to begin anew and mass import game parameters as wanted.  
 
 ## Portability
@@ -26,6 +30,7 @@ If once chooses, this can also be launched from command line by typing the follo
 ## Launching a Book
 When you first start Selius you will be greeted by the sarcasm label explaining the simple fact that using some illegal values may irrevocably damage a save file.  This sarcasm label can be removed if you upgrade to Pro.  (Sarcasm)  
 Click which book you would like to launch.  
+![image3](https://github.com/RPGFAN128/Selsius/blob/master/screens/1.0%20title.png)  
 
 ## Win!
 Edit what so ever your heart desires.  You must save all your work as a separate save file.  (Or technically speaking you COULD overwrite the original file by selecting it when choosing a name for the new save file...but why would you want to do that?  See Sarcasm label)  
