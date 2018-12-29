@@ -16,8 +16,9 @@ In order to acheive the absolute highest level of portability, the language used
 Selsius is compiled into an executable JAR file.  
 
 ## Necessary Files
-The files needed are the latest release executable JAR file "Selsius.jar."  
-Since this is a "Library" of save editors, each save editor is called a "Book."  You must have a directory named "books" with any games you wish to be able to edit. Each book contains a minimum version of Selsius required to run.  If a book does not show up on Selsius you must replace it with a more up-to-date book.  
+The files needed are the following:  
+● The latest release executable JAR file "Selsius.jar."  
+● Books. Since this is a "Library" of save editors, each save editor is called a "Book."  You must have a directory named "books" with any games you wish to be able to edit. Each book contains a minimum version of Selsius required to run.  If a book does not show up on Selsius you must replace it with a more up-to-date book.  
 
 ## Optional Files
 Every book has the option of using assets (i.e. PNG images).  These are not required, and since most of these are copyrighted assets they will NOT be provided here.  
